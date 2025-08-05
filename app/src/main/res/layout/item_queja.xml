@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="28dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <!-- Usuario -->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/imageUsuario"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/userimage" />
+
+                <TextView
+                    android:id="@+id/textUsuario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Usuario: Nombre Apellido"
+                    android:textColor="@color/dark_green"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+
+        <!-- Información -->
+        <TextView
+            android:id="@+id/textTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textRuta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ruta:" />
+
+        <TextView
+            android:id="@+id/textUnidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unidad:" />
+
+        <!-- Descripción -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripcion:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Problema" />
+
+        <ImageView
+            android:id="@+id/imvImagen"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/imagelogo" />
+
+        <!-- Fecha y Hora -->
+        <TextView
+            android:id="@+id/textFechaHora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha: Hora:"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

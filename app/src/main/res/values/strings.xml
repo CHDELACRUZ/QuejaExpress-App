@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">QuejaExpress</string>
+    <string name="lateral">Lateral</string>
+    <string name="perfil">Perfil</string>
+    <string name="crear">Crear</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="seguimiento">Seguimiento</string>
+    <string name="inicio">Inicio</string>
+    <string name="enviar">Enviar</string>
+    <string name="bienvenida">Bienvenido a QuejaExpress</string>
+    <string name="descQuejaExpress">QuejaExpress es una aplicación independiente y no está afiliada a ninguna entidad gubernamental. Las quejas aquí presentadas no tienen carácter legal. Nuestro objetivo es informar y concientizar a la comunidad sobre el estado del transporte público.</string>
+    <string name="btnIniciar">Iniciar</string>
+    <string name="usuario">Usuario</string>
+    <string name="arrowback">ArrowBack</string>
+    <string name="staticresourse">Staticresourse</string>
+    <string name="usuario_quejaexpress_com">usuario@quejaexpress.com</string>
+    <string name="quejaexpress">QuejaExpress</string>
+    <string name="inicia_sesion_con_tu_informacion">Inicia sesion con tu informacion</string>
+    <string name="direccion_de_correo_electronico">Direccion de correo electronico</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="recuerdame">Recuerdame</string>
+    <string name="olvide_mi_contrase_a">Olvide mi contraseña</string>
+    <string name="bienvenido_a_quejaexpress">Bienvenido a QuejaExpress</string>
+    <string name="ingresar">Ingresar</string>
+
+    <string-array name="TiposQueja">
+        <item>Accidente</item>
+        <item>Conductor</item>
+        <item>Unidad</item>
+        <item>Estado de las calles</item>
+        <item>Aviso</item>
+    </string-array>
+
+
+    <string-array name="Rutas">
+        <item>644-B Jauja</item>
+        <item>644-B Cima Serena</item>
+        <item>615</item>
+    </string-array>
+
+    <string name="default_web_client_id">263572746815-0bbt8ov39vr4rbpuiseh44p85jmla70a.apps.googleusercontent.com</string>
+
+</resources>

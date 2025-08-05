@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "263572746815",
+    "project_id": "quejaexpress",
+    "storage_bucket": "quejaexpress.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263572746815:android:95d48a9f694b90d09ffe8a",
+        "android_client_info": {
+          "package_name": "com.mundowebsolutions.quejaexpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263572746815-0bbt8ov39vr4rbpuiseh44p85jmla70a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mundowebsolutions.quejaexpress",
+            "certificate_hash": "7d2689c6d49d3194337cac5b9a5ad4ec6fcec420"
+          }
+        },
+        {
+          "client_id": "263572746815-cabvr25ib98au0so47u6ek92gts59e0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-F_R55u4qWYgrI6ucCd75Sf65Hy7BZTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263572746815-cabvr25ib98au0so47u6ek92gts59e0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
